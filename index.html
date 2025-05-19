@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Rajbhar</title>
+    <link rel="icon" href="logo.png" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">🤍</a>
+        <nav class="nav-links">
+            <a href="#about">About.</a>
+            <a href="#Projects">Projects.</a>
+            <a href="#skills">Skills.</a>
+            <a href="#contact">Contact.</a>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>    
+    <main>
+        <section class="hero">
+            <div class="profile-card">
+                <img src="YOUR-PHOTO" alt="Profile Photo">
+                <div class="name-status">
+                    <strong>Vishal Rajbhar</strong>
+                    <span class="status">✦ Available</span>
+                </div>
+            </div>
+            <h1>
+                WEB <br>
+                DEVELOPER <br>
+                & DESIGNER
+            </h1>
+            <p class="intro"><b>
+                I craft visually captivating, realistic web designs using cutting-edge 
+                development tools to deliver seamless and immersive user experiences.
+            </b></p>
+        </section>
+    </main>
+    <section id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            <b>Hi! I'm Vishal Rajbhar, a passionate <strong>Web Creator</strong> who crafts beautiful, functional, and user-friendly digital experiences.
+            I specialize in front-end development with HTML, CSS, JavaScript, and modern frameworks like React and Angular.</b>
+          </p>
+          <p>
+            <b>I love transforming ideas into responsive websites and applications, and I'm always eager to learn and grow.</b>
+          </p>
+    
+          <!-- Audio player goes here -->
+           <p style="margin-bottom: 4px; font-weight: 300; color: #00ff99; font-size: 20px;">[Current favorite song]</p>
+            <div class="custom-audio-player">
+                 <audio id="audio" src=".MP3_FILE"></audio>
+                   <button id="play-pause" aria-label="Play/Pause">
+                <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"/>
+                </svg>
+                <svg id="pause-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24" style="display:none;">
+                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+                  </svg>
+                    </button>
+                    <input type="range" id="progress" value="0">
+                      <span id="time">0:00</span>
+                </div>
+        </div>
+        <div class="about-image">
+          <img src="YOUR_IMG" alt="About Me Image">
+        </div>
+      </div>
+    </section>    
+    <section id="Projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've created. Check them out!</p>
+    
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="img/project1.png" alt="Project 1">
+                <h3>LinguaFlow</h3>
+                <p>LinguaFlow is a simple and intuitive language translation application.</p>
+                <a href="PROJECT_LINK" class="project-link">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <img src="img/project2.jpg" alt="Project 2">
+                <h3>OneClick</h3>
+                <p>OneClick is a user-friendly e-commerce website .</p>
+                <a href="PROJECT_LINK" class="project-link">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <img src="img/Project3.png" alt="Project 3">
+                <h3>Weather App</h3>
+                <p>This web application provides users with real-time weather information .</p>
+                <a href="PROJECT_LINK" class="project-link">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <img src="img/Project4.png" alt="Project 4">
+                <h3>Pixel Mayhem</h3>
+                <p>This is 2d unity based game.</p>
+                <a href="PROJECT_LINK" class="project-link">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <img src="img/Project5.png" alt="Project 5">
+                <h3>Portfolio</h3>
+                <p>This portfolio showcases my work and skills as a web developer.</p>
+                <a href="PROJECT_LINK" class="project-link">View Project →</a>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="skills-content">
+          <h2>My Skills</h2>
+          <p class="skills-description">Here are the technologies I'm proficient in.</p>
+      
+          <div class="skills-columns">
+            <div class="skills-column">
+              <img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML5 logo" width="40" height="40">
+              <p>HTML</p>
+            </div>
+            <div class="skills-column">
+              <img src="https://cdn.simpleicons.org/css3/1572B6" alt="CSS3 logo" width="40" height="40">
+              <p>CSS</p>
+            </div>
+            <div class="skills-column">
+              <img src="https://cdn.simpleicons.org/react/61DAFB" alt="React logo" width="40" height="40">
+              <p>React</p>
+            </div>
+            <div class="skills-column">
+              <img src="https://cdn.simpleicons.org/angular/DD0031" alt="Angular logo" width="40" height="40">
+              <p>Angular</p>
+            </div>
+            <div class="skills-column">
+              <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript logo" width="40" height="40">
+              <p>JavaScript</p>
+            </div>            
+            <div class="skills-column">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java logo" width="40" height="40">
+              <p>Java</p>
+            </div>
+            <div class="skills-column">
+              <img src="https://cdn.simpleicons.org/nodedotjs/339933" alt="Node.js logo" width="40" height="40">
+              <p>Node.js</p>
+            </div>
+            <div class="skills-column">
+              <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python logo" width="40" height="40">
+              <p>Python</p>
+            </div>
+            <div class="skills-column">
+              <img src="https://cdn.simpleicons.org/rust/000000" alt="Rust logo" width="40" height="40">
+              <p>Rust</p>
+            </div>
+            <div class="skills-column">
+              <img src="https://cdn.simpleicons.org/flutter/02569B" alt="Flutter logo" width="40" height="40">
+              <p>Flutter</p>
+            </div>
+            <div class="skills-column">
+              <img src="https://cdn.simpleicons.org/git/F05032" alt="Git logo" width="40" height="40">
+              <p>Git</p>
+            </div>
+            <div class="skills-column">
+              <img src="https://cdn.simpleicons.org/figma/F24E1E" alt="Figma logo" width="40" height="40">
+              <p>Figma</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-wrapper">
+          <p class="subtitle">Let's connect</p>
+          <h1>Contact Me</h1>
+          <a href="mailto:YOUR_E-MAIL" class="contact-btn" target="_blank">EXAMPLE@gmail.com</a>
+          <div class="socials">
+            <a href="YOUR_github" target="_blank" aria-label="GitHub"><i class="fa fa-github"></i></a>
+            <a href="YOUR_linkedin" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p>© 2025 Vishal Rajbhar. All rights reserved.</p>
+      </footer>        
+<script src="script.js"></script>
+</body>
+</html>
